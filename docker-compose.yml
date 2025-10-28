@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  healthtrack-pro:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./app/data:/app/app/data
+      - ./.chroma_store:/app/.chroma_store
+    restart: unless-stopped

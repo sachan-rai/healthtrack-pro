@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeSync Lite - Wellness Planner</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #34495e;
+        }
+        input[type="text"], input[type="number"], textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e1e8ed;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+        button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+        .toggle-btn {
+            background: #e74c3c;
+            margin-bottom: 20px;
+        }
+        .toggle-btn.active {
+            background: #27ae60;
+        }
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .error {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .plan-container {
+            margin-top: 30px;
+        }
+        .day-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+        }
+        .day-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .meal-section {
+            margin-bottom: 15px;
+        }
+        .meal-title {
+            font-weight: 600;
+            color: #34495e;
+            margin-bottom: 8px;
+        }
+        .meal-name {
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .meal-details {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #e1e8ed;
+            margin-top: 10px;
+        }
+        .meal-details.hidden {
+            display: none;
+        }
+        .detail-row {
+            display: flex;
+            margin-bottom: 8px;
+        }
+        .detail-label {
+            font-weight: 600;
+            min-width: 120px;
+            color: #7f8c8d;
+        }
+        .detail-value {
+            color: #2c3e50;
+        }
+        .workout {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #27ae60;
+            margin-top: 15px;
+        }
+        .workout-title {
+            font-weight: 600;
+            color: #27ae60;
+            margin-bottom: 8px;
+        }
+        .tips-section {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin-top: 20px;
+        }
+        .tips-title {
+            font-weight: 600;
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        .tips-list {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .caution-section {
+            background: #f8d7da;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #dc3545;
+            margin-top: 20px;
+        }
+        .caution-title {
+            font-weight: 600;
+            color: #721c24;
+            margin-bottom: 10px;
+        }
+        .macro-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .macro-item {
+            text-align: center;
+            padding: 8px;
+            background: #f1f3f4;
+            border-radius: 4px;
+        }
+        .macro-value {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .macro-label {
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏋️ LifeSync Lite</h1>
+        
+        <div class="form-group">
+            <label for="goal">Your Wellness Goal:</label>
+            <textarea id="goal" placeholder="e.g., '3-day muscle gain plan under 2200 kcal' or 'weight loss plan for beginners'"></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="age">Age (optional):</label>
+            <input type="number" id="age" placeholder="e.g., 25" min="1" max="120">
+        </div>
+        
+        <div class="form-group">
+            <label for="weight">Weight in kg (optional):</label>
+            <input type="number" id="weight" placeholder="e.g., 70" min="1" max="500" step="0.1">
+        </div>
+        
+        <div class="form-group">
+            <label for="height">Height in cm (optional):</label>
+            <input type="number" id="height" placeholder="e.g., 175" min="50" max="250" step="0.1">
+        </div>
+        
+        <div class="form-group">
+            <label for="restrictions">Dietary Restrictions (optional):</label>
+            <select id="restrictions">
+                <option value="">No restrictions</option>
+                <option value="vegan">Vegan (18 recipes)</option>
+                <option value="vegetarian">Vegetarian (includes vegan)</option>
+                <option value="gluten-free">Gluten-free</option>
+                <option value="dairy-free">Dairy-free</option>
+                <option value="low-carb">Low-carb (12 recipes)</option>
+                <option value="keto">Keto (10 recipes)</option>
+                <option value="paleo">Paleo (10 recipes)</option>
+            </select>
+            <small style="color: #7f8c8d; font-size: 12px; margin-top: 5px; display: block;">
+                All dietary restrictions now have plenty of recipe options!
+            </small>
+        </div>
+        
+        <button onclick="generatePlan()" id="generateBtn">Generate Plan</button>
+        <button onclick="toggleMealDetails()" id="toggleBtn" class="toggle-btn">Show Meal Details</button>
+        
+        <div id="status"></div>
+        <div id="planContainer" class="plan-container"></div>
+    </div>
+
+    <script>
+        let showMealDetails = false;
+        let currentPlan = null;
+
+        async function generatePlan() {
+            const goal = document.getElementById('goal').value.trim();
+            if (!goal) {
+                alert('Please enter a wellness goal');
+                return;
+            }
+
+            // Collect profile data
+            const age = document.getElementById('age').value;
+            const weight = document.getElementById('weight').value;
+            const height = document.getElementById('height').value;
+            const restrictions = document.getElementById('restrictions').value;
+
+            const generateBtn = document.getElementById('generateBtn');
+            const status = document.getElementById('status');
+            const planContainer = document.getElementById('planContainer');
+
+            generateBtn.disabled = true;
+            generateBtn.textContent = 'Generating...';
+            status.innerHTML = '<div class="loading">Creating your personalized wellness plan...</div>';
+            planContainer.innerHTML = '';
+
+            try {
+                // Build request payload
+                const requestData = { goal: goal };
+                
+                // Add profile data if provided
+                const profile = {};
+                if (age) profile.age = parseInt(age);
+                if (weight) profile.weight_kg = parseFloat(weight);
+                if (height) profile.height_cm = parseFloat(height);
+                if (restrictions) profile.restrictions = restrictions;
+                
+                if (Object.keys(profile).length > 0) {
+                    requestData.profile = profile;
+                }
+
+                const response = await fetch('/plan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestData)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                currentPlan = data;
+                displayPlan(data);
+                status.innerHTML = '';
+            } catch (error) {
+                status.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+            } finally {
+                generateBtn.disabled = false;
+                generateBtn.textContent = 'Generate Plan';
+            }
+        }
+
+        function toggleMealDetails() {
+            showMealDetails = !showMealDetails;
+            const toggleBtn = document.getElementById('toggleBtn');
+            toggleBtn.textContent = showMealDetails ? 'Hide Meal Details' : 'Show Meal Details';
+            toggleBtn.classList.toggle('active', showMealDetails);
+            
+            if (currentPlan) {
+                displayPlan(currentPlan);
+            }
+        }
+
+        function displayPlan(plan) {
+            const planContainer = document.getElementById('planContainer');
+            
+            let html = '';
+            
+            if (plan.plan && plan.plan.days) {
+                plan.plan.days.forEach((day, index) => {
+                    html += `
+                        <div class="day-card">
+                            <div class="day-title">${day.day}</div>
+                            
+                            <div class="meal-section">
+                                <div class="meal-title">Breakfast</div>
+                                <div class="meal-name">${day.meals.breakfast.name}</div>
+                                ${showMealDetails ? getMealDetails(day.meals.breakfast) : ''}
+                            </div>
+                            
+                            <div class="meal-section">
+                                <div class="meal-title">Lunch</div>
+                                <div class="meal-name">${day.meals.lunch.name}</div>
+                                ${showMealDetails ? getMealDetails(day.meals.lunch) : ''}
+                            </div>
+                            
+                            <div class="meal-section">
+                                <div class="meal-title">Dinner</div>
+                                <div class="meal-name">${day.meals.dinner.name}</div>
+                                ${showMealDetails ? getMealDetails(day.meals.dinner) : ''}
+                            </div>
+                            
+                            <div class="workout">
+                                <div class="workout-title">💪 Workout</div>
+                                <div>${day.workout}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+
+            if (plan.plan && plan.plan.tips) {
+                html += `
+                    <div class="tips-section">
+                        <div class="tips-title">💡 Tips</div>
+                        <ul class="tips-list">
+                            ${plan.plan.tips.map(tip => `<li>${tip}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            if (plan.plan && plan.plan.caution) {
+                html += `
+                    <div class="caution-section">
+                        <div class="caution-title">⚠️ Important</div>
+                        <div>${plan.plan.caution}</div>
+                    </div>
+                `;
+            }
+
+            planContainer.innerHTML = html;
+        }
+
+        function getMealDetails(meal) {
+            const macros = meal.macros || {};
+            const protein = meal.protein || [];
+            const grain = meal.grain || [];
+            const veg = meal.veg || [];
+            const fat = meal.fat || [];
+            const seasonings = meal.seasonings || [];
+            
+            return `
+                <div class="meal-details">
+                    <div class="detail-row">
+                        <div class="detail-label">Calories:</div>
+                        <div class="detail-value">${meal.approx_kcal || 'N/A'} kcal</div>
+                    </div>
+                    
+                    <div class="macro-grid">
+                        <div class="macro-item">
+                            <div class="macro-value">${macros.protein_g || 'N/A'}</div>
+                            <div class="macro-label">Protein (g)</div>
+                        </div>
+                        <div class="macro-item">
+                            <div class="macro-value">${macros.carbs_g || 'N/A'}</div>
+                            <div class="macro-label">Carbs (g)</div>
+                        </div>
+                        <div class="macro-item">
+                            <div class="macro-value">${macros.fat_g || 'N/A'}</div>
+                            <div class="macro-label">Fat (g)</div>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-row">
+                        <div class="detail-label">Protein:</div>
+                        <div class="detail-value">${protein.join(', ') || 'N/A'}</div>
+                    </div>
+                    <div class="detail-row">
+                        <div class="detail-label">Grains:</div>
+                        <div class="detail-value">${grain.join(', ') || 'N/A'}</div>
+                    </div>
+                    <div class="detail-row">
+                        <div class="detail-label">Vegetables:</div>
+                        <div class="detail-value">${veg.join(', ') || 'N/A'}</div>
+                    </div>
+                    <div class="detail-row">
+                        <div class="detail-label">Fats:</div>
+                        <div class="detail-value">${fat.join(', ') || 'N/A'}</div>
+                    </div>
+                    <div class="detail-row">
+                        <div class="detail-label">Seasonings:</div>
+                        <div class="detail-value">${seasonings.join(', ') || 'N/A'}</div>
+                    </div>
+                    <div class="detail-row">
+                        <div class="detail-label">Cuisine:</div>
+                        <div class="detail-value">${meal.cuisine || 'N/A'}</div>
+                    </div>
+                    <div class="detail-row">
+                        <div class="detail-label">Diet:</div>
+                        <div class="detail-value">${(meal.diet || []).join(', ') || 'N/A'}</div>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,2178 @@
+[
+  {
+    "name": "Chicken Shawarma Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": ["brown rice"],
+    "veg": ["cucumber", "tomato", "lettuce"],
+    "fat": ["tahini"],
+    "seasonings": ["garlic", "lemon", "cumin", "paprika"],
+    "cuisine": "middle-eastern",
+    "diet": ["gluten-free"],
+    "approx_kcal": 650,
+    "macros": {
+      "protein_g": 45,
+      "carbs_g": 65,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Tofu Stir-Fry",
+    "meal": ["lunch", "dinner"],
+    "protein": ["tofu"],
+    "grain": ["noodles"],
+    "veg": ["broccoli", "carrot", "snap peas", "baby corn", "bell pepper"],
+    "fat": ["sesame oil"],
+    "seasonings": ["soy sauce", "ginger", "garlic"],
+    "cuisine": "east-asian",
+    "diet": ["vegan"],
+    "approx_kcal": 600,
+    "macros": {
+      "protein_g": 25,
+      "carbs_g": 75,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "meal": ["breakfast", "snack"],
+    "protein": ["greek yogurt"],
+    "grain": ["granola"],
+    "veg": [],
+    "fat": ["almonds"],
+    "seasonings": ["honey", "vanilla"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 25,
+      "carbs_g": 48,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Salmon Teriyaki Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["salmon"],
+    "grain": ["white rice"],
+    "veg": ["edamame", "seaweed", "cucumber"],
+    "fat": ["sesame seeds"],
+    "seasonings": ["teriyaki sauce", "ginger"],
+    "cuisine": "japanese",
+    "diet": ["gluten-free", "dairy-free"],
+    "approx_kcal": 720,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 70,
+      "fat_g": 28
+    }
+  },
+  {
+    "name": "Avocado Toast with Eggs",
+    "meal": ["breakfast", "brunch"],
+    "protein": ["eggs"],
+    "grain": ["sourdough bread"],
+    "veg": ["tomato", "arugula"],
+    "fat": ["avocado"],
+    "seasonings": ["salt", "pepper", "red pepper flakes"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 450,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 38,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Beef Taco Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["ground beef"],
+    "grain": ["quinoa"],
+    "veg": ["lettuce", "tomato", "corn", "bell pepper"],
+    "fat": ["sour cream", "cheese"],
+    "seasonings": ["cumin", "chili powder", "lime"],
+    "cuisine": "mexican",
+    "diet": ["gluten-free"],
+    "approx_kcal": 680,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 58,
+      "fat_g": 30
+    }
+  },
+  {
+    "name": "Chickpea Curry",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chickpeas"],
+    "grain": ["basmati rice"],
+    "veg": ["spinach", "tomato", "onion"],
+    "fat": ["coconut milk"],
+    "seasonings": ["curry powder", "turmeric", "ginger", "garlic"],
+    "cuisine": "indian",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 580,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 85,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Protein Pancakes",
+    "meal": ["breakfast"],
+    "protein": ["protein powder", "eggs"],
+    "grain": ["oats"],
+    "veg": ["banana"],
+    "fat": ["peanut butter"],
+    "seasonings": ["cinnamon", "vanilla", "maple syrup"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 520,
+    "macros": {
+      "protein_g": 35,
+      "carbs_g": 62,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Shrimp Pad Thai",
+    "meal": ["lunch", "dinner"],
+    "protein": ["shrimp"],
+    "grain": ["rice noodles"],
+    "veg": ["bean sprouts", "carrot", "scallions"],
+    "fat": ["peanuts"],
+    "seasonings": ["fish sauce", "tamarind", "lime", "garlic"],
+    "cuisine": "thai",
+    "diet": ["gluten-free", "dairy-free"],
+    "approx_kcal": 640,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 78,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Mediterranean Quinoa Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["feta cheese", "chickpeas"],
+    "grain": ["quinoa"],
+    "veg": ["cucumber", "tomato", "olives", "red onion"],
+    "fat": ["olive oil"],
+    "seasonings": ["lemon", "oregano", "garlic"],
+    "cuisine": "mediterranean",
+    "diet": ["vegetarian", "gluten-free"],
+    "approx_kcal": 520,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 62,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Overnight Oats",
+    "meal": ["breakfast"],
+    "protein": ["greek yogurt", "chia seeds"],
+    "grain": ["oats"],
+    "veg": ["berries"],
+    "fat": ["almond butter"],
+    "seasonings": ["honey", "cinnamon"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 58,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Turkey Meatball Sub",
+    "meal": ["lunch", "dinner"],
+    "protein": ["ground turkey"],
+    "grain": ["whole wheat bread"],
+    "veg": ["marinara sauce", "bell pepper", "onion"],
+    "fat": ["mozzarella cheese"],
+    "seasonings": ["italian herbs", "garlic", "parmesan"],
+    "cuisine": "italian",
+    "diet": [],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 54,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Lentil Soup",
+    "meal": ["lunch", "dinner"],
+    "protein": ["lentils"],
+    "grain": ["barley"],
+    "veg": ["carrot", "celery", "onion", "tomato"],
+    "fat": ["olive oil"],
+    "seasonings": ["cumin", "bay leaf", "thyme"],
+    "cuisine": "mediterranean",
+    "diet": ["vegan"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 62,
+      "fat_g": 6
+    }
+  },
+  {
+    "name": "Egg Fried Rice",
+    "meal": ["lunch", "dinner"],
+    "protein": ["eggs"],
+    "grain": ["white rice"],
+    "veg": ["peas", "carrot", "corn", "scallions"],
+    "fat": ["sesame oil"],
+    "seasonings": ["soy sauce", "garlic", "ginger"],
+    "cuisine": "chinese",
+    "diet": ["vegetarian"],
+    "approx_kcal": 540,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 75,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Grilled Chicken Caesar Salad",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken breast"],
+    "grain": ["croutons"],
+    "veg": ["romaine lettuce"],
+    "fat": ["parmesan cheese", "caesar dressing"],
+    "seasonings": ["black pepper", "lemon"],
+    "cuisine": "american",
+    "diet": [],
+    "approx_kcal": 480,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 24,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Black Bean Burrito Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["black beans"],
+    "grain": ["brown rice"],
+    "veg": ["lettuce", "tomato", "corn", "bell pepper"],
+    "fat": ["avocado", "cheese"],
+    "seasonings": ["cumin", "lime", "cilantro"],
+    "cuisine": "mexican",
+    "diet": ["vegetarian", "gluten-free"],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 88,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Cottage Cheese Bowl",
+    "meal": ["breakfast", "snack"],
+    "protein": ["cottage cheese"],
+    "grain": [],
+    "veg": ["cucumber", "tomato"],
+    "fat": ["pumpkin seeds"],
+    "seasonings": ["salt", "pepper", "everything bagel seasoning"],
+    "cuisine": "american",
+    "diet": ["vegetarian", "gluten-free", "low-carb"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 12,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Beef and Broccoli",
+    "meal": ["lunch", "dinner"],
+    "protein": ["beef"],
+    "grain": ["white rice"],
+    "veg": ["broccoli"],
+    "fat": ["sesame oil"],
+    "seasonings": ["soy sauce", "garlic", "ginger", "oyster sauce"],
+    "cuisine": "chinese",
+    "diet": ["dairy-free"],
+    "approx_kcal": 680,
+    "macros": {
+      "protein_g": 40,
+      "carbs_g": 68,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Tuna Poke Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["tuna"],
+    "grain": ["sushi rice"],
+    "veg": ["avocado", "cucumber", "edamame", "seaweed"],
+    "fat": ["sesame seeds"],
+    "seasonings": ["soy sauce", "sesame oil", "ginger"],
+    "cuisine": "hawaiian",
+    "diet": ["gluten-free", "dairy-free"],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 62,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Veggie Omelet",
+    "meal": ["breakfast", "brunch"],
+    "protein": ["eggs"],
+    "grain": ["toast"],
+    "veg": ["spinach", "mushroom", "bell pepper", "onion"],
+    "fat": ["cheese"],
+    "seasonings": ["salt", "pepper", "herbs"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 26,
+      "carbs_g": 32,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Pulled Pork Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["pork"],
+    "grain": ["sweet potato"],
+    "veg": ["coleslaw", "pickles"],
+    "fat": [],
+    "seasonings": ["paprika", "garlic powder", "brown sugar","bbq sauce"],
+    "cuisine": "american",
+    "diet": ["gluten-free", "dairy-free"],
+    "approx_kcal": 720,
+    "macros": {
+      "protein_g": 45,
+      "carbs_g": 72,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Falafel Wrap",
+    "meal": ["lunch", "dinner"],
+    "protein": ["falafel"],
+    "grain": ["pita bread"],
+    "veg": ["lettuce", "tomato", "cucumber", "pickles"],
+    "fat": ["tahini", "hummus"],
+    "seasonings": ["lemon", "garlic", "cumin"],
+    "cuisine": "middle-eastern",
+    "diet": ["vegan"],
+    "approx_kcal": 560,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 72,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Smoothie Bowl",
+    "meal": ["breakfast", "snack"],
+    "protein": ["protein powder", "greek yogurt"],
+    "grain": ["granola"],
+    "veg": ["banana", "berries", "spinach"],
+    "fat": ["almond butter"],
+    "seasonings": ["honey"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 480,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 64,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "meal": ["lunch", "dinner"],
+    "protein": ["ground beef"],
+    "grain": ["pasta"],
+    "veg": ["tomato", "onion", "carrot", "celery"],
+    "fat": ["parmesan cheese", "olive oil"],
+    "seasonings": ["garlic", "oregano", "basil"],
+    "cuisine": "italian",
+    "diet": [],
+    "approx_kcal": 720,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 82,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Coconut Curry Chicken",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": ["jasmine rice"],
+    "veg": ["bell pepper", "bamboo shoots", "thai basil"],
+    "fat": ["coconut milk"],
+    "seasonings": ["red curry paste", "fish sauce", "lime"],
+    "cuisine": "thai",
+    "diet": ["gluten-free", "dairy-free"],
+    "approx_kcal": 680,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 65,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Protein Smoothie",
+    "meal": ["breakfast", "snack"],
+    "protein": ["protein powder"],
+    "grain": ["oats"],
+    "veg": ["banana", "spinach"],
+    "fat": ["peanut butter"],
+    "seasonings": ["cinnamon"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 35,
+      "carbs_g": 48,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Fish Tacos",
+    "meal": ["lunch", "dinner"],
+    "protein": ["white fish"],
+    "grain": ["corn tortillas"],
+    "veg": ["cabbage slaw", "pico de gallo"],
+    "fat": ["avocado", "sour cream"],
+    "seasonings": ["lime", "cumin", "chili powder", "cilantro"],
+    "cuisine": "mexican",
+    "diet": ["gluten-free"],
+    "approx_kcal": 540,
+    "macros": {
+      "protein_g": 36,
+      "carbs_g": 48,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Caprese Salad",
+    "meal": ["lunch", "snack"],
+    "protein": ["mozzarella cheese"],
+    "grain": [],
+    "veg": ["tomato", "basil"],
+    "fat": ["olive oil"],
+    "seasonings": ["balsamic vinegar", "salt", "pepper"],
+    "cuisine": "italian",
+    "diet": ["vegetarian", "gluten-free", "low-carb"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 12,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Korean Bibimbap",
+    "meal": ["lunch", "dinner"],
+    "protein": ["beef", "egg"],
+    "grain": ["white rice"],
+    "veg": ["spinach", "carrot", "bean sprouts", "mushroom", "zucchini"],
+    "fat": ["sesame oil"],
+    "seasonings": ["gochujang", "soy sauce", "garlic"],
+    "cuisine": "korean",
+    "diet": ["dairy-free"],
+    "approx_kcal": 680,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 78,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Breakfast Burrito",
+    "meal": ["breakfast", "brunch"],
+    "protein": ["eggs", "black beans"],
+    "grain": ["flour tortilla"],
+    "veg": ["bell pepper", "onion", "tomato"],
+    "fat": ["cheese", "avocado"],
+    "seasonings": ["salsa", "cumin", "cilantro"],
+    "cuisine": "mexican",
+    "diet": ["vegetarian"],
+    "approx_kcal": 580,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 58,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Pesto Pasta with Chicken",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken breast"],
+    "grain": ["penne pasta"],
+    "veg": ["cherry tomato", "spinach"],
+    "fat": ["pesto", "parmesan cheese"],
+    "seasonings": ["garlic", "black pepper"],
+    "cuisine": "italian",
+    "diet": [],
+    "approx_kcal": 720,
+    "macros": {
+      "protein_g": 45,
+      "carbs_g": 72,
+      "fat_g": 26
+    }
+  },
+  {
+    "name": "Sweet Potato Buddha Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["tempeh"],
+    "grain": ["quinoa"],
+    "veg": ["sweet potato", "kale", "chickpeas", "beets"],
+    "fat": ["tahini dressing"],
+    "seasonings": ["cumin", "paprika", "lemon"],
+    "cuisine": "american",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 24,
+      "carbs_g": 88,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Turkey Chili",
+    "meal": ["lunch", "dinner"],
+    "protein": ["ground turkey"],
+    "grain": ["cornbread"],
+    "veg": ["kidney beans", "tomato", "bell pepper", "onion"],
+    "fat": ["sour cream", "cheese"],
+    "seasonings": ["chili powder", "cumin", "garlic"],
+    "cuisine": "american",
+    "diet": [],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 62,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Baked Salmon with Vegetables",
+    "meal": ["lunch", "dinner"],
+    "protein": ["salmon"],
+    "grain": ["wild rice"],
+    "veg": ["asparagus", "brussels sprouts"],
+    "fat": ["olive oil", "butter"],
+    "seasonings": ["lemon", "dill", "garlic"],
+    "cuisine": "american",
+    "diet": ["gluten-free"],
+    "approx_kcal": 680,
+    "macros": {
+      "protein_g": 45,
+      "carbs_g": 54,
+      "fat_g": 28
+    }
+  },
+  {
+    "name": "Açai Bowl",
+    "meal": ["breakfast", "snack"],
+    "protein": ["protein powder"],
+    "grain": ["granola"],
+    "veg": ["açai", "banana", "berries"],
+    "fat": ["coconut flakes", "almond butter"],
+    "seasonings": ["honey"],
+    "cuisine": "brazilian",
+    "diet": ["vegetarian"],
+    "approx_kcal": 520,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 72,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Chicken Quesadilla",
+    "meal": ["lunch", "dinner", "snack"],
+    "protein": ["chicken"],
+    "grain": ["flour tortilla"],
+    "veg": ["bell pepper", "onion"],
+    "fat": ["cheese", "sour cream"],
+    "seasonings": ["cumin", "chili powder", "salsa"],
+    "cuisine": "mexican",
+    "diet": [],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 48,
+      "fat_g": 28
+    }
+  },
+  {
+    "name": "Vegetable Lasagna",
+    "meal": ["lunch", "dinner"],
+    "protein": ["ricotta cheese", "mozzarella cheese"],
+    "grain": ["lasagna noodles"],
+    "veg": ["spinach", "zucchini", "mushroom", "tomato sauce"],
+    "fat": ["parmesan cheese", "olive oil"],
+    "seasonings": ["garlic", "basil", "oregano"],
+    "cuisine": "italian",
+    "diet": ["vegetarian"],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 68,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": ["basmati rice"],
+    "veg": ["tomato", "onion"],
+    "fat": ["cream", "butter"],
+    "seasonings": ["garam masala", "turmeric", "cumin", "ginger", "garlic"],
+    "cuisine": "indian",
+    "diet": ["gluten-free"],
+    "approx_kcal": 720,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 72,
+      "fat_g": 26
+    }
+  },
+  {
+    "name": "Tuna Salad Sandwich",
+    "meal": ["lunch"],
+    "protein": ["tuna"],
+    "grain": ["whole wheat bread"],
+    "veg": ["lettuce", "tomato", "celery"],
+    "fat": ["mayonnaise"],
+    "seasonings": ["lemon", "dill", "pepper"],
+    "cuisine": "american",
+    "diet": [],
+    "approx_kcal": 480,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 42,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Veggie Burger",
+    "meal": ["lunch", "dinner"],
+    "protein": ["black bean patty"],
+    "grain": ["whole wheat bun"],
+    "veg": ["lettuce", "tomato", "onion", "pickles"],
+    "fat": ["avocado"],
+    "seasonings": ["mustard", "ketchup"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 520,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 72,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Chia Pudding",
+    "meal": ["breakfast", "snack"],
+    "protein": ["chia seeds"],
+    "grain": [],
+    "veg": ["berries", "banana"],
+    "fat": ["almond milk", "almonds"],
+    "seasonings": ["vanilla", "honey", "cinnamon"],
+    "cuisine": "american",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 12,
+      "carbs_g": 42,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Steak Fajitas",
+    "meal": ["lunch", "dinner"],
+    "protein": ["beef steak"],
+    "grain": ["flour tortillas"],
+    "veg": ["bell pepper", "onion"],
+    "fat": ["sour cream", "guacamole"],
+    "seasonings": ["cumin", "chili powder", "lime", "cilantro"],
+    "cuisine": "mexican",
+    "diet": [],
+    "approx_kcal": 720,
+    "macros": {
+      "protein_g": 45,
+      "carbs_g": 58,
+      "fat_g": 30
+    }
+  },
+  {
+    "name": "Mushroom Risotto",
+    "meal": ["lunch", "dinner"],
+    "protein": ["parmesan cheese"],
+    "grain": ["arborio rice"],
+    "veg": ["mushroom", "onion"],
+    "fat": ["butter"],
+    "seasonings": ["garlic", "thyme", "parsley", "white wine"],
+    "cuisine": "italian",
+    "diet": ["vegetarian", "gluten-free"],
+    "approx_kcal": 580,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 78,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Bagel with Lox",
+    "meal": ["breakfast", "brunch"],
+    "protein": ["smoked salmon"],
+    "grain": ["bagel"],
+    "veg": ["tomato", "onion", "capers"],
+    "fat": ["cream cheese"],
+    "seasonings": ["dill", "lemon"],
+    "cuisine": "american",
+    "diet": [],
+    "approx_kcal": 520,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 58,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Lamb Gyro",
+    "meal": ["lunch", "dinner"],
+    "protein": ["lamb"],
+    "grain": ["pita bread"],
+    "veg": ["lettuce", "tomato", "cucumber", "onion"],
+    "fat": ["tzatziki sauce"],
+    "seasonings": ["oregano", "garlic", "lemon"],
+    "cuisine": "greek",
+    "diet": [],
+    "approx_kcal": 680,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 58,
+      "fat_g": 30
+    }
+  },
+  {
+    "name": "Veggie Spring Rolls",
+    "meal": ["lunch", "snack"],
+    "protein": ["tofu"],
+    "grain": ["rice paper"],
+    "veg": ["lettuce", "carrot", "cucumber", "bean sprouts"],
+    "fat": ["peanut sauce"],
+    "seasonings": ["soy sauce", "lime", "cilantro"],
+    "cuisine": "vietnamese",
+    "diet": ["vegan"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 14,
+      "carbs_g": 58,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Egg Salad Sandwich",
+    "meal": ["lunch"],
+    "protein": ["eggs"],
+    "grain": ["whole wheat bread"],
+    "veg": ["lettuce", "celery"],
+    "fat": ["mayonnaise"],
+    "seasonings": ["mustard", "dill", "paprika"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 450,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 38,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Beef Bulgogi Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["beef"],
+    "grain": ["white rice"],
+    "veg": ["kimchi", "cucumber", "carrot", "lettuce"],
+    "fat": ["sesame oil"],
+    "seasonings": ["soy sauce", "ginger", "garlic", "sesame seeds"],
+    "cuisine": "korean",
+    "diet": ["dairy-free"],
+    "approx_kcal": 720,
+    "macros": {
+      "protein_g": 42,
+      "carbs_g": 75,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "French Toast",
+    "meal": ["breakfast", "brunch"],
+    "protein": ["eggs"],
+    "grain": ["bread"],
+    "veg": ["berries"],
+    "fat": ["butter"],
+    "seasonings": ["cinnamon", "vanilla", "maple syrup"],
+    "cuisine": "french",
+    "diet": ["vegetarian"],
+    "approx_kcal": 520,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 72,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Chicken Alfredo",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken breast"],
+    "grain": ["fettuccine pasta"],
+    "veg": ["broccoli"],
+    "fat": ["cream", "parmesan cheese", "butter"],
+    "seasonings": ["garlic", "black pepper", "parsley"],
+    "cuisine": "italian",
+    "diet": [],
+    "approx_kcal": 820,
+    "macros": {
+      "protein_g": 48,
+      "carbs_g": 72,
+      "fat_g": 36
+    }
+  },
+  {
+    "name": "Hummus and Veggie Wrap",
+    "meal": ["lunch", "snack"],
+    "protein": ["hummus"],
+    "grain": ["whole wheat wrap"],
+    "veg": ["cucumber", "tomato", "lettuce", "bell pepper", "carrot"],
+    "fat": ["avocado"],
+    "seasonings": ["lemon", "garlic"],
+    "cuisine": "mediterranean",
+    "diet": ["vegan"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 14,
+      "carbs_g": 58,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Miso Ramen",
+    "meal": ["lunch", "dinner"],
+    "protein": ["eggs", "tofu"],
+    "grain": ["ramen noodles"],
+    "veg": ["bok choy", "corn", "scallions", "bamboo shoots"],
+    "fat": ["sesame oil"],
+    "seasonings": ["miso paste", "soy sauce", "ginger", "garlic"],
+    "cuisine": "japanese",
+    "diet": ["vegetarian", "dairy-free"],
+    "approx_kcal": 580,
+    "macros": {
+      "protein_g": 24,
+      "carbs_g": 82,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Turkey Club Sandwich",
+    "meal": ["lunch"],
+    "protein": ["turkey", "bacon"],
+    "grain": ["whole wheat bread"],
+    "veg": ["lettuce", "tomato"],
+    "fat": ["avocado", "mayonnaise"],
+    "seasonings": ["mustard", "pepper"],
+    "cuisine": "american",
+    "diet": [],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 48,
+      "fat_g": 26
+    }
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "meal": ["lunch", "dinner"],
+    "protein": ["ground beef", "cheese"],
+    "grain": ["rice"],
+    "veg": ["bell pepper", "tomato", "onion"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "italian herbs"],
+    "cuisine": "american",
+    "diet": ["gluten-free"],
+    "approx_kcal": 580,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 58,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Breakfast Hash",
+    "meal": ["breakfast", "brunch"],
+    "protein": ["eggs", "sausage"],
+    "grain": ["potato"],
+    "veg": ["bell pepper", "onion"],
+    "fat": ["cheese"],
+    "seasonings": ["paprika", "garlic powder", "pepper"],
+    "cuisine": "american",
+    "diet": ["gluten-free"],
+    "approx_kcal": 620,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 52,
+      "fat_g": 30
+    }
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": ["egg noodles"],
+    "veg": ["carrot", "celery", "onion"],
+    "fat": ["butter"],
+    "seasonings": ["thyme", "bay leaf", "parsley"],
+    "cuisine": "american",
+    "diet": ["dairy-free"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 48,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Shrimp Scampi",
+    "meal": ["lunch", "dinner"],
+    "protein": ["shrimp"],
+    "grain": ["linguine pasta"],
+    "veg": ["spinach", "tomato"],
+    "fat": ["butter", "parmesan cheese"],
+    "seasonings": ["garlic", "lemon", "white wine", "parsley"],
+    "cuisine": "italian",
+    "diet": [],
+    "approx_kcal": 680,
+    "macros": {
+      "protein_g": 38,
+      "carbs_g": 72,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Protein Bar",
+    "meal": ["snack"],
+    "protein": ["protein powder", "peanut butter"],
+    "grain": ["oats"],
+    "veg": [],
+    "fat": ["dark chocolate chips"],
+    "seasonings": ["honey", "vanilla"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 32,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Vegan Buddha Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chickpeas", "quinoa"],
+    "grain": ["quinoa"],
+    "veg": ["sweet potato", "kale", "carrot", "red cabbage"],
+    "fat": ["avocado", "tahini"],
+    "seasonings": ["lemon", "garlic", "cumin", "turmeric"],
+    "cuisine": "american",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 520,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 65,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Vegan Lentil Bolognese",
+    "meal": ["dinner"],
+    "protein": ["lentils"],
+    "grain": ["brown rice pasta"],
+    "veg": ["tomato", "onion", "carrot", "celery", "mushroom"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "oregano", "basil", "nutritional yeast"],
+    "cuisine": "italian",
+    "diet": ["vegan"],
+    "approx_kcal": 480,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 72,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Vegan Chickpea Curry",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chickpeas"],
+    "grain": ["brown rice"],
+    "veg": ["onion", "tomato", "spinach", "bell pepper"],
+    "fat": ["coconut milk"],
+    "seasonings": ["curry powder", "turmeric", "ginger", "garlic"],
+    "cuisine": "indian",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 450,
+    "macros": {
+      "protein_g": 16,
+      "carbs_g": 68,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Vegan Black Bean Tacos",
+    "meal": ["lunch", "dinner"],
+    "protein": ["black beans"],
+    "grain": ["corn tortillas"],
+    "veg": ["lettuce", "tomato", "onion", "avocado"],
+    "fat": ["avocado"],
+    "seasonings": ["lime", "cilantro", "cumin", "chili powder"],
+    "cuisine": "mexican",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 14,
+      "carbs_g": 58,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Vegan Overnight Oats",
+    "meal": ["breakfast"],
+    "protein": ["almonds"],
+    "grain": ["oats"],
+    "veg": [],
+    "fat": ["almonds", "chia seeds"],
+    "seasonings": ["vanilla", "cinnamon", "maple syrup"],
+    "cuisine": "american",
+    "diet": ["vegan"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 12,
+      "carbs_g": 48,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Vegan Quinoa Salad",
+    "meal": ["lunch"],
+    "protein": ["quinoa"],
+    "grain": ["quinoa"],
+    "veg": ["cucumber", "tomato", "red onion", "bell pepper"],
+    "fat": ["olive oil"],
+    "seasonings": ["lemon", "dill", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 10,
+      "carbs_g": 42,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Vegan Sweet Potato Hash",
+    "meal": ["breakfast", "brunch"],
+    "protein": ["black beans"],
+    "grain": [],
+    "veg": ["sweet potato", "onion", "bell pepper", "spinach"],
+    "fat": ["coconut oil"],
+    "seasonings": ["garlic", "paprika", "cumin", "salt"],
+    "cuisine": "american",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 350,
+    "macros": {
+      "protein_g": 12,
+      "carbs_g": 58,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Vegan Mushroom Risotto",
+    "meal": ["dinner"],
+    "protein": ["nutritional yeast"],
+    "grain": ["arborio rice"],
+    "veg": ["mushroom", "onion", "garlic", "spinach"],
+    "fat": ["olive oil"],
+    "seasonings": ["white wine", "thyme", "salt", "pepper"],
+    "cuisine": "italian",
+    "diet": ["vegan"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 14,
+      "carbs_g": 68,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Vegan Green Smoothie Bowl",
+    "meal": ["breakfast"],
+    "protein": ["hemp seeds"],
+    "grain": [],
+    "veg": ["spinach", "banana"],
+    "fat": ["hemp seeds", "coconut"],
+    "seasonings": ["vanilla", "honey"],
+    "cuisine": "american",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 10,
+      "carbs_g": 42,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Vegan Tempeh Stir-Fry",
+    "meal": ["lunch", "dinner"],
+    "protein": ["tempeh"],
+    "grain": ["brown rice"],
+    "veg": ["broccoli", "carrot", "snap peas", "bell pepper"],
+    "fat": ["sesame oil"],
+    "seasonings": ["soy sauce", "ginger", "garlic", "rice vinegar"],
+    "cuisine": "east-asian",
+    "diet": ["vegan", "gluten-free"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 48,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Vegetarian Spinach Frittata",
+    "meal": ["breakfast", "brunch"],
+    "protein": ["eggs", "cheese"],
+    "grain": [],
+    "veg": ["spinach", "onion", "tomato"],
+    "fat": ["olive oil", "cheese"],
+    "seasonings": ["salt", "pepper", "basil"],
+    "cuisine": "italian",
+    "diet": ["vegetarian", "gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 8,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Vegetarian Quinoa Stuffed Peppers",
+    "meal": ["lunch", "dinner"],
+    "protein": ["quinoa", "cheese"],
+    "grain": ["quinoa"],
+    "veg": ["bell pepper", "onion", "tomato", "zucchini"],
+    "fat": ["olive oil", "cheese"],
+    "seasonings": ["garlic", "oregano", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["vegetarian", "gluten-free"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 14,
+      "carbs_g": 38,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Vegetarian Mac and Cheese",
+    "meal": ["lunch", "dinner"],
+    "protein": ["cheese"],
+    "grain": ["whole wheat pasta"],
+    "veg": ["broccoli"],
+    "fat": ["butter", "cheese"],
+    "seasonings": ["garlic", "mustard", "salt", "pepper"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 480,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 58,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Vegetarian Mediterranean Wrap",
+    "meal": ["lunch"],
+    "protein": ["hummus", "cheese"],
+    "grain": ["whole wheat tortilla"],
+    "veg": ["cucumber", "tomato", "lettuce", "red onion"],
+    "fat": ["olive oil", "hummus"],
+    "seasonings": ["oregano", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["vegetarian"],
+    "approx_kcal": 350,
+    "macros": {
+      "protein_g": 16,
+      "carbs_g": 42,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Vegetarian Eggplant Parmesan",
+    "meal": ["dinner"],
+    "protein": ["cheese", "eggs"],
+    "grain": ["breadcrumbs"],
+    "veg": ["eggplant", "tomato", "basil"],
+    "fat": ["olive oil", "cheese"],
+    "seasonings": ["garlic", "oregano", "salt", "pepper"],
+    "cuisine": "italian",
+    "diet": ["vegetarian"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 38,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Vegetarian Breakfast Burrito",
+    "meal": ["breakfast"],
+    "protein": ["eggs", "cheese", "black beans"],
+    "grain": ["whole wheat tortilla"],
+    "veg": ["bell pepper", "onion", "tomato", "avocado"],
+    "fat": ["avocado", "cheese"],
+    "seasonings": ["cilantro", "lime", "cumin", "salt"],
+    "cuisine": "mexican",
+    "diet": ["vegetarian"],
+    "approx_kcal": 450,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 48,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Vegetarian Stuffed Zucchini",
+    "meal": ["dinner"],
+    "protein": ["quinoa", "cheese"],
+    "grain": ["quinoa"],
+    "veg": ["zucchini", "tomato", "onion", "bell pepper"],
+    "fat": ["olive oil", "cheese"],
+    "seasonings": ["garlic", "basil", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["vegetarian", "gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 16,
+      "carbs_g": 32,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Vegetarian Cauliflower Rice Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chickpeas", "cheese"],
+    "grain": [],
+    "veg": ["cauliflower", "broccoli", "carrot", "bell pepper"],
+    "fat": ["olive oil", "cheese"],
+    "seasonings": ["garlic", "lemon", "parsley", "salt"],
+    "cuisine": "american",
+    "diet": ["vegetarian", "gluten-free"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 28,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Vegetarian Spinach Artichoke Dip",
+    "meal": ["snack", "appetizer"],
+    "protein": ["cheese"],
+    "grain": ["whole grain crackers"],
+    "veg": ["spinach", "artichoke"],
+    "fat": ["cream cheese", "cheese"],
+    "seasonings": ["garlic", "salt", "pepper"],
+    "cuisine": "american",
+    "diet": ["vegetarian"],
+    "approx_kcal": 180,
+    "macros": {
+      "protein_g": 8,
+      "carbs_g": 12,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Vegetarian Ratatouille",
+    "meal": ["dinner"],
+    "protein": ["cheese"],
+    "grain": [],
+    "veg": ["eggplant", "zucchini", "tomato", "bell pepper", "onion"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "herbs de provence", "salt", "pepper"],
+    "cuisine": "french",
+    "diet": ["vegetarian", "gluten-free"],
+    "approx_kcal": 220,
+    "macros": {
+      "protein_g": 6,
+      "carbs_g": 28,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Gluten-Free Chicken Piccata",
+    "meal": ["dinner"],
+    "protein": ["chicken"],
+    "grain": ["quinoa"],
+    "veg": ["lemon", "capers", "asparagus"],
+    "fat": ["olive oil", "butter"],
+    "seasonings": ["garlic", "white wine", "salt", "pepper"],
+    "cuisine": "italian",
+    "diet": ["gluten-free"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 35,
+      "carbs_g": 32,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Gluten-Free Pancakes",
+    "meal": ["breakfast"],
+    "protein": ["eggs"],
+    "grain": ["almond flour", "coconut flour"],
+    "veg": [],
+    "fat": ["coconut oil", "butter"],
+    "seasonings": ["vanilla", "baking powder", "salt"],
+    "cuisine": "american",
+    "diet": ["gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 12,
+      "carbs_g": 18,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Gluten-Free Fish Tacos",
+    "meal": ["lunch", "dinner"],
+    "protein": ["white fish"],
+    "grain": ["corn tortillas"],
+    "veg": ["cabbage", "tomato", "onion", "cilantro"],
+    "fat": ["avocado", "lime crema"],
+    "seasonings": ["cumin", "chili powder", "lime", "salt"],
+    "cuisine": "mexican",
+    "diet": ["gluten-free"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 32,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Gluten-Free Zucchini Bread",
+    "meal": ["breakfast", "snack"],
+    "protein": ["eggs"],
+    "grain": ["almond flour"],
+    "veg": ["zucchini"],
+    "fat": ["coconut oil"],
+    "seasonings": ["cinnamon", "vanilla", "baking soda", "salt"],
+    "cuisine": "american",
+    "diet": ["gluten-free"],
+    "approx_kcal": 180,
+    "macros": {
+      "protein_g": 6,
+      "carbs_g": 12,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Gluten-Free Beef Stir-Fry",
+    "meal": ["lunch", "dinner"],
+    "protein": ["beef"],
+    "grain": ["cauliflower rice"],
+    "veg": ["broccoli", "bell pepper", "snap peas", "carrot"],
+    "fat": ["sesame oil"],
+    "seasonings": ["ginger", "garlic", "soy sauce", "rice vinegar"],
+    "cuisine": "east-asian",
+    "diet": ["gluten-free"],
+    "approx_kcal": 350,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 18,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Gluten-Free Chocolate Chip Cookies",
+    "meal": ["snack", "dessert"],
+    "protein": ["eggs"],
+    "grain": ["almond flour"],
+    "veg": [],
+    "fat": ["coconut oil", "chocolate chips"],
+    "seasonings": ["vanilla", "baking soda", "salt"],
+    "cuisine": "american",
+    "diet": ["gluten-free"],
+    "approx_kcal": 120,
+    "macros": {
+      "protein_g": 3,
+      "carbs_g": 8,
+      "fat_g": 9
+    }
+  },
+  {
+    "name": "Gluten-Free Chicken Nuggets",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": ["almond flour"],
+    "veg": [],
+    "fat": ["coconut oil"],
+    "seasonings": ["garlic powder", "paprika", "salt", "pepper"],
+    "cuisine": "american",
+    "diet": ["gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 8,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Gluten-Free Pasta Primavera",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": ["brown rice pasta"],
+    "veg": ["broccoli", "carrot", "bell pepper", "zucchini"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "basil", "salt", "pepper"],
+    "cuisine": "italian",
+    "diet": ["gluten-free"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 48,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Gluten-Free Banana Muffins",
+    "meal": ["breakfast", "snack"],
+    "protein": ["eggs"],
+    "grain": ["oat flour"],
+    "veg": ["banana"],
+    "fat": ["coconut oil"],
+    "seasonings": ["cinnamon", "vanilla", "baking powder", "salt"],
+    "cuisine": "american",
+    "diet": ["gluten-free"],
+    "approx_kcal": 200,
+    "macros": {
+      "protein_g": 6,
+      "carbs_g": 28,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Gluten-Free Salmon Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["salmon"],
+    "grain": ["quinoa"],
+    "veg": ["asparagus", "broccoli", "carrot"],
+    "fat": ["olive oil", "avocado"],
+    "seasonings": ["lemon", "dill", "garlic", "salt"],
+    "cuisine": "mediterranean",
+    "diet": ["gluten-free"],
+    "approx_kcal": 480,
+    "macros": {
+      "protein_g": 35,
+      "carbs_g": 32,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Dairy-Free Coconut Curry",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": ["brown rice"],
+    "veg": ["onion", "tomato", "bell pepper", "spinach"],
+    "fat": ["coconut milk"],
+    "seasonings": ["curry powder", "ginger", "garlic", "turmeric"],
+    "cuisine": "thai",
+    "diet": ["dairy-free", "gluten-free"],
+    "approx_kcal": 450,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 42,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Dairy-Free Cashew Alfredo",
+    "meal": ["dinner"],
+    "protein": ["cashews"],
+    "grain": ["brown rice pasta"],
+    "veg": ["broccoli", "garlic"],
+    "fat": ["cashews", "olive oil"],
+    "seasonings": ["nutritional yeast", "salt", "pepper"],
+    "cuisine": "italian",
+    "diet": ["dairy-free", "vegan"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 16,
+      "carbs_g": 58,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Dairy-Free Chocolate Smoothie",
+    "meal": ["breakfast", "snack"],
+    "protein": ["almonds"],
+    "grain": [],
+    "veg": ["banana"],
+    "fat": ["almonds", "coconut milk"],
+    "seasonings": ["cocoa powder", "vanilla", "honey"],
+    "cuisine": "american",
+    "diet": ["dairy-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 8,
+      "carbs_g": 32,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Dairy-Free Fish Tacos",
+    "meal": ["lunch", "dinner"],
+    "protein": ["white fish"],
+    "grain": ["corn tortillas"],
+    "veg": ["cabbage", "tomato", "onion"],
+    "fat": ["avocado", "lime"],
+    "seasonings": ["cilantro", "cumin", "chili powder", "salt"],
+    "cuisine": "mexican",
+    "diet": ["dairy-free", "gluten-free"],
+    "approx_kcal": 350,
+    "macros": {
+      "protein_g": 25,
+      "carbs_g": 28,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Dairy-Free Overnight Oats",
+    "meal": ["breakfast"],
+    "protein": ["almonds"],
+    "grain": ["oats"],
+    "veg": [],
+    "fat": ["almonds", "coconut milk"],
+    "seasonings": ["vanilla", "cinnamon", "maple syrup"],
+    "cuisine": "american",
+    "diet": ["dairy-free", "vegan"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 10,
+      "carbs_g": 48,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Dairy-Free Chicken Salad",
+    "meal": ["lunch"],
+    "protein": ["chicken"],
+    "grain": [],
+    "veg": ["lettuce", "tomato", "cucumber", "red onion"],
+    "fat": ["olive oil", "avocado"],
+    "seasonings": ["lemon", "dill", "salt", "pepper"],
+    "cuisine": "american",
+    "diet": ["dairy-free", "gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 25,
+      "carbs_g": 12,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Dairy-Free Coconut Ice Cream",
+    "meal": ["dessert"],
+    "protein": [],
+    "grain": [],
+    "veg": [],
+    "fat": ["coconut milk"],
+    "seasonings": ["vanilla", "honey"],
+    "cuisine": "american",
+    "diet": ["dairy-free", "vegan"],
+    "approx_kcal": 180,
+    "macros": {
+      "protein_g": 2,
+      "carbs_g": 12,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Dairy-Free Stir-Fry",
+    "meal": ["lunch", "dinner"],
+    "protein": ["tofu"],
+    "grain": ["brown rice"],
+    "veg": ["broccoli", "carrot", "bell pepper", "snap peas"],
+    "fat": ["sesame oil"],
+    "seasonings": ["ginger", "garlic", "soy sauce", "rice vinegar"],
+    "cuisine": "east-asian",
+    "diet": ["dairy-free", "vegan", "gluten-free"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 48,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Dairy-Free Pancakes",
+    "meal": ["breakfast"],
+    "protein": ["eggs"],
+    "grain": ["oat flour"],
+    "veg": [],
+    "fat": ["coconut oil"],
+    "seasonings": ["vanilla", "baking powder", "salt"],
+    "cuisine": "american",
+    "diet": ["dairy-free"],
+    "approx_kcal": 250,
+    "macros": {
+      "protein_g": 8,
+      "carbs_g": 32,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Dairy-Free Energy Balls",
+    "meal": ["snack"],
+    "protein": ["almonds"],
+    "grain": [],
+    "veg": [],
+    "fat": ["almonds", "coconut oil"],
+    "seasonings": ["vanilla", "cinnamon", "honey"],
+    "cuisine": "american",
+    "diet": ["dairy-free", "vegan", "gluten-free"],
+    "approx_kcal": 120,
+    "macros": {
+      "protein_g": 4,
+      "carbs_g": 8,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Low-Carb Cauliflower Rice",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": [],
+    "veg": ["cauliflower", "onion", "garlic"],
+    "fat": ["olive oil"],
+    "seasonings": ["salt", "pepper", "parsley"],
+    "cuisine": "american",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 180,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 8,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Low-Carb Zucchini Noodles",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": [],
+    "veg": ["zucchini", "tomato", "basil"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "salt", "pepper"],
+    "cuisine": "italian",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 220,
+    "macros": {
+      "protein_g": 25,
+      "carbs_g": 8,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Low-Carb Egg Muffins",
+    "meal": ["breakfast"],
+    "protein": ["eggs"],
+    "grain": [],
+    "veg": ["spinach", "bell pepper", "onion"],
+    "fat": ["cheese"],
+    "seasonings": ["salt", "pepper", "herbs"],
+    "cuisine": "american",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 120,
+    "macros": {
+      "protein_g": 10,
+      "carbs_g": 3,
+      "fat_g": 8
+    }
+  },
+  {
+    "name": "Low-Carb Lettuce Wraps",
+    "meal": ["lunch", "dinner"],
+    "protein": ["ground turkey"],
+    "grain": [],
+    "veg": ["lettuce", "carrot", "cucumber"],
+    "fat": ["sesame oil"],
+    "seasonings": ["ginger", "garlic", "soy sauce"],
+    "cuisine": "east-asian",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 200,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 6,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Low-Carb Avocado Toast",
+    "meal": ["breakfast"],
+    "protein": ["eggs"],
+    "grain": [],
+    "veg": ["avocado"],
+    "fat": ["avocado"],
+    "seasonings": ["salt", "pepper", "red pepper flakes"],
+    "cuisine": "american",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 180,
+    "macros": {
+      "protein_g": 12,
+      "carbs_g": 4,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Low-Carb Stuffed Peppers",
+    "meal": ["dinner"],
+    "protein": ["ground beef"],
+    "grain": [],
+    "veg": ["bell pepper", "onion", "tomato"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "oregano", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 250,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 8,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Low-Carb Cauliflower Pizza",
+    "meal": ["dinner"],
+    "protein": ["cheese"],
+    "grain": [],
+    "veg": ["cauliflower", "tomato", "basil"],
+    "fat": ["cheese", "olive oil"],
+    "seasonings": ["garlic", "oregano", "salt"],
+    "cuisine": "italian",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 8,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Low-Carb Greek Salad",
+    "meal": ["lunch"],
+    "protein": ["feta cheese"],
+    "grain": [],
+    "veg": ["cucumber", "tomato", "red onion", "olives"],
+    "fat": ["olive oil"],
+    "seasonings": ["oregano", "salt", "pepper"],
+    "cuisine": "greek",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 220,
+    "macros": {
+      "protein_g": 8,
+      "carbs_g": 8,
+      "fat_g": 18
+    }
+  },
+  {
+    "name": "Low-Carb Chicken Salad",
+    "meal": ["lunch"],
+    "protein": ["chicken"],
+    "grain": [],
+    "veg": ["lettuce", "cucumber", "tomato"],
+    "fat": ["mayonnaise"],
+    "seasonings": ["dill", "salt", "pepper"],
+    "cuisine": "american",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 200,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 4,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Low-Carb Broccoli Soup",
+    "meal": ["lunch", "dinner"],
+    "protein": ["cheese"],
+    "grain": [],
+    "veg": ["broccoli", "onion", "garlic"],
+    "fat": ["butter", "cream"],
+    "seasonings": ["salt", "pepper", "nutmeg"],
+    "cuisine": "american",
+    "diet": ["low-carb", "gluten-free"],
+    "approx_kcal": 180,
+    "macros": {
+      "protein_g": 8,
+      "carbs_g": 8,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Keto Avocado Egg Salad",
+    "meal": ["breakfast", "lunch"],
+    "protein": ["eggs"],
+    "grain": [],
+    "veg": ["avocado"],
+    "fat": ["avocado", "mayonnaise"],
+    "seasonings": ["salt", "pepper", "dill"],
+    "cuisine": "american",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 16,
+      "carbs_g": 4,
+      "fat_g": 28
+    }
+  },
+  {
+    "name": "Keto Fat Bombs",
+    "meal": ["snack"],
+    "protein": [],
+    "grain": [],
+    "veg": [],
+    "fat": ["coconut oil", "almonds", "dark chocolate"],
+    "seasonings": ["vanilla", "sea salt"],
+    "cuisine": "american",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 150,
+    "macros": {
+      "protein_g": 2,
+      "carbs_g": 2,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Keto Chicken Thighs",
+    "meal": ["dinner"],
+    "protein": ["chicken"],
+    "grain": [],
+    "veg": ["asparagus"],
+    "fat": ["olive oil", "butter"],
+    "seasonings": ["garlic", "rosemary", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 4,
+      "fat_g": 26
+    }
+  },
+  {
+    "name": "Keto Cauliflower Mac and Cheese",
+    "meal": ["dinner"],
+    "protein": ["cheese"],
+    "grain": [],
+    "veg": ["cauliflower"],
+    "fat": ["cheese", "cream", "butter"],
+    "seasonings": ["garlic", "mustard", "salt", "pepper"],
+    "cuisine": "american",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 16,
+      "carbs_g": 8,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Keto Salmon with Asparagus",
+    "meal": ["dinner"],
+    "protein": ["salmon"],
+    "grain": [],
+    "veg": ["asparagus"],
+    "fat": ["olive oil", "butter"],
+    "seasonings": ["lemon", "dill", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 35,
+      "carbs_g": 6,
+      "fat_g": 28
+    }
+  },
+  {
+    "name": "Keto Zucchini Lasagna",
+    "meal": ["dinner"],
+    "protein": ["ground beef", "cheese"],
+    "grain": [],
+    "veg": ["zucchini", "tomato", "onion"],
+    "fat": ["cheese", "olive oil"],
+    "seasonings": ["garlic", "oregano", "basil", "salt"],
+    "cuisine": "italian",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 350,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 8,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Keto Bulletproof Coffee",
+    "meal": ["breakfast"],
+    "protein": [],
+    "grain": [],
+    "veg": [],
+    "fat": ["coconut oil", "butter"],
+    "seasonings": ["vanilla", "cinnamon"],
+    "cuisine": "american",
+    "diet": ["keto", "low-carb", "dairy-free"],
+    "approx_kcal": 200,
+    "macros": {
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 22
+    }
+  },
+  {
+    "name": "Keto Cobb Salad",
+    "meal": ["lunch"],
+    "protein": ["bacon", "eggs", "chicken"],
+    "grain": [],
+    "veg": ["lettuce", "tomato", "avocado"],
+    "fat": ["avocado", "blue cheese"],
+    "seasonings": ["salt", "pepper"],
+    "cuisine": "american",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 450,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 8,
+      "fat_g": 32
+    }
+  },
+  {
+    "name": "Keto Chocolate Mousse",
+    "meal": ["dessert"],
+    "protein": ["eggs"],
+    "grain": [],
+    "veg": [],
+    "fat": ["heavy cream", "dark chocolate"],
+    "seasonings": ["vanilla", "stevia"],
+    "cuisine": "american",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 6,
+      "carbs_g": 4,
+      "fat_g": 26
+    }
+  },
+  {
+    "name": "Keto Beef Stir-Fry",
+    "meal": ["dinner"],
+    "protein": ["beef"],
+    "grain": [],
+    "veg": ["broccoli", "bell pepper", "mushroom"],
+    "fat": ["sesame oil"],
+    "seasonings": ["ginger", "garlic", "soy sauce"],
+    "cuisine": "east-asian",
+    "diet": ["keto", "low-carb", "gluten-free"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 6,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Paleo Grilled Chicken",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": [],
+    "veg": ["sweet potato", "broccoli"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "rosemary", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 380,
+    "macros": {
+      "protein_g": 35,
+      "carbs_g": 22,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Paleo Sweet Potato Hash",
+    "meal": ["breakfast"],
+    "protein": ["eggs"],
+    "grain": [],
+    "veg": ["sweet potato", "onion", "bell pepper"],
+    "fat": ["coconut oil"],
+    "seasonings": ["garlic", "paprika", "salt", "pepper"],
+    "cuisine": "american",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 320,
+    "macros": {
+      "protein_g": 18,
+      "carbs_g": 28,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Paleo Salmon Bowl",
+    "meal": ["lunch", "dinner"],
+    "protein": ["salmon"],
+    "grain": [],
+    "veg": ["kale", "carrot", "cucumber", "avocado"],
+    "fat": ["avocado", "olive oil"],
+    "seasonings": ["lemon", "dill", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 420,
+    "macros": {
+      "protein_g": 32,
+      "carbs_g": 18,
+      "fat_g": 24
+    }
+  },
+  {
+    "name": "Paleo Beef Stew",
+    "meal": ["dinner"],
+    "protein": ["beef"],
+    "grain": [],
+    "veg": ["carrot", "onion", "celery", "mushroom"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "thyme", "bay leaf", "salt"],
+    "cuisine": "american",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 350,
+    "macros": {
+      "protein_g": 28,
+      "carbs_g": 12,
+      "fat_g": 20
+    }
+  },
+  {
+    "name": "Paleo Zucchini Noodles",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": [],
+    "veg": ["zucchini", "tomato", "basil"],
+    "fat": ["olive oil"],
+    "seasonings": ["garlic", "salt", "pepper"],
+    "cuisine": "italian",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 280,
+    "macros": {
+      "protein_g": 25,
+      "carbs_g": 8,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Paleo Apple Cinnamon Muffins",
+    "meal": ["breakfast", "snack"],
+    "protein": ["eggs"],
+    "grain": ["almond flour"],
+    "veg": ["apple"],
+    "fat": ["coconut oil"],
+    "seasonings": ["cinnamon", "vanilla", "baking soda", "salt"],
+    "cuisine": "american",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 200,
+    "macros": {
+      "protein_g": 8,
+      "carbs_g": 12,
+      "fat_g": 14
+    }
+  },
+  {
+    "name": "Paleo Turkey Meatballs",
+    "meal": ["lunch", "dinner"],
+    "protein": ["turkey"],
+    "grain": [],
+    "veg": ["onion", "garlic"],
+    "fat": ["olive oil"],
+    "seasonings": ["oregano", "salt", "pepper"],
+    "cuisine": "mediterranean",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 250,
+    "macros": {
+      "protein_g": 22,
+      "carbs_g": 4,
+      "fat_g": 16
+    }
+  },
+  {
+    "name": "Paleo Cauliflower Rice",
+    "meal": ["lunch", "dinner"],
+    "protein": ["chicken"],
+    "grain": [],
+    "veg": ["cauliflower", "onion", "garlic"],
+    "fat": ["coconut oil"],
+    "seasonings": ["salt", "pepper", "parsley"],
+    "cuisine": "american",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 200,
+    "macros": {
+      "protein_g": 20,
+      "carbs_g": 8,
+      "fat_g": 10
+    }
+  },
+  {
+    "name": "Paleo Chocolate Chip Cookies",
+    "meal": ["snack", "dessert"],
+    "protein": ["eggs"],
+    "grain": ["almond flour"],
+    "veg": [],
+    "fat": ["coconut oil", "dark chocolate"],
+    "seasonings": ["vanilla", "baking soda", "salt"],
+    "cuisine": "american",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 150,
+    "macros": {
+      "protein_g": 4,
+      "carbs_g": 8,
+      "fat_g": 12
+    }
+  },
+  {
+    "name": "Paleo Green Smoothie",
+    "meal": ["breakfast"],
+    "protein": ["hemp seeds"],
+    "grain": [],
+    "veg": ["spinach", "kale"],
+    "fat": ["hemp seeds", "coconut milk"],
+    "seasonings": ["vanilla", "honey"],
+    "cuisine": "american",
+    "diet": ["paleo", "gluten-free", "dairy-free"],
+    "approx_kcal": 220,
+    "macros": {
+      "protein_g": 8,
+      "carbs_g": 18,
+      "fat_g": 12
+    }
+  }
+]

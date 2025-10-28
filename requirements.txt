@@ -1,0 +1,29 @@
+# Core RAG stack (versions chosen to be mutually compatible on Windows)
+langchain==0.3.3
+langchain-core==0.3.63
+langchain-community==0.3.2
+langchain-openai==0.2.10
+langchain-text-splitters==0.3.7
+
+chromadb==0.5.5
+langsmith==0.1.147
+posthog==6.7.10
+
+# API + SDK
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+openai>=1.54.0
+
+# Ingestion helpers
+beautifulsoup4>=4.12.3
+html2text>=2024.2.26
+markdown>=3.6
+pypdf>=5.0.1
+python-docx>=1.1.2
+readability-lxml>=0.8.1
+requests>=2.31.0
+python-dotenv>=1.0.1
+tiktoken>=0.7.0
+
+# Typing helpers (optional)
+typing-extensions>=4.7
